@@ -1,9 +1,9 @@
 import pygal
 import csv
-from pygal import Bar
+from pygal import Pie
 
 # Create a chart
-chart = Bar(title = 'Olympic medals')
+chart = Pie(title = 'Olympic medals')
 
 # Add data to the chart
 #open and read the data correctly
